@@ -1,15 +1,17 @@
 {
   "name": "qbittorent-rules-transformer",
   "version": "1.0.0",
-  "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node --experimental-strip-types ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "prettier": "^3.5.3"
+    "@types/node": "^22.15.21",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
   }
 }
