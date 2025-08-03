@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
+    "noEmit": true,
     "target": "ES2024",
-    "module": "NodeNext",
+    "module": "node20",
     "strict": true,
     "erasableSyntaxOnly": true,
+    "allowImportingTsExtensions": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "noUncheckedIndexedAccess": true
