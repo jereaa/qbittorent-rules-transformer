@@ -1,0 +1,8 @@
+{
+  "$schema": "https://nodejs.org/dist/v24.5.0/docs/node-config-schema.json",
+  "testRunner": {
+    "experimental-test-coverage": true,
+    "test-reporter": ["spec", "lcov"],
+    "test-reporter-destination": ["stdout", "coverage/lcov.info"]
+  }
+}
