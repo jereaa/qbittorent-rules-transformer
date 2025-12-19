@@ -32,3 +32,5 @@ fs.writeFileSync(
   JSON.stringify(filteredRules, null, 2),
   'utf-8',
 );
+
+console.log('Transformed rules written to output.json');
