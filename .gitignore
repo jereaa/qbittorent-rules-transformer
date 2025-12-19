@@ -1,3 +1,9 @@
+# Dependencies
 node_modules
+
+# Generated files
+coverage
+
+# Build outputs
 output.json
 rules.json
