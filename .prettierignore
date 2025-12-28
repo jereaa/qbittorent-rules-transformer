@@ -1,0 +1,4 @@
+# Generated files
+node_modules
+coverage
+output.json
